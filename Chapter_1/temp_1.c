@@ -1,11 +1,17 @@
 #include <stdio.h>
-#define start 0
-#define end 300
-#define del 30
-
-int main(){
-	float f;
-	for (f= start; f < end; f+=del)
-		printf ("%3.0f  %.2f\n", f, (5.0/9)*(f+32));
-	
+int main()
+{
+   char ch = 'A';
+   char str[20] = "fresh2refresh.com";
+   float flt = 10.234;
+   int no = 150;
+   double dbl = 20.123456;
+   printf("Character is %c \n", ch);
+   printf("String is %s \n" , str);
+   printf("Float value is %f \n", flt);
+   printf("Integer value is %d\n" , no);
+   printf("Double value is %lf \n", dbl);
+   printf("Octal value is %o \n", no);
+   printf("Hexadecimal value is %x \n", no);
+   return 0;
 }
